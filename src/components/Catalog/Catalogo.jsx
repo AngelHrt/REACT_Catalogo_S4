@@ -8,34 +8,34 @@ const Catalogo = () => {
 
 	const products = [
 		{
-			name : 'producto1',
-			description : 'esto es una descipcion del producto 1',
-			url : 'https://guiadelempresario.com/wp-content/uploads/2020/09/Producto-scaled.jpg',
+			name : 'Xiaomi Redmi note 13 Pro',
+			price : '1900',
+			url : 'https://xiaomiperu.com/media/catalog/product/cache/deaf12c726c019462dcd02884cec40ac/a/f/afafadf.jpg',
 		},
 		{
-			name : 'producto2',
-			description : 'esto es una descipcion del producto 2',
-			url : 'https://guiadelempresario.com/wp-content/uploads/2020/09/Producto-scaled.jpg',
+			name : 'Samsung S23',
+			price : '3000',
+			url : 'https://latienda.pe/22496-large_default/samsung-galaxy-s23.jpg',
 		},
 		{
-			name : 'producto3',
-			description : 'esto es una descipcion del producto 3',
-			url : 'https://guiadelempresario.com/wp-content/uploads/2020/09/Producto-scaled.jpg',
+			name : 'Honor 90 Lite',
+			price : '3000',
+			url : 'https://m.media-amazon.com/images/I/71SWs3TBwfL._AC_UF894,1000_QL80_.jpg',
 		},
 		{
-			name : 'producto4',
-			description : 'esto es una descipcion del producto 4',
-			url : 'https://guiadelempresario.com/wp-content/uploads/2020/09/Producto-scaled.jpg',
+			name : 'Motorola Moto G54',
+			price : '700',
+			url : 'https://m.media-amazon.com/images/I/71hK54VMakL._AC_SL1500_.jpg',
 		},
 		{
-			name : 'producto5',
-			description : 'esto es una descipcion del producto 5',
-			url : 'https://guiadelempresario.com/wp-content/uploads/2020/09/Producto-scaled.jpg',
+			name : 'Oppo A57',
+			price : '700',
+			url : 'https://home.ripley.com.pe/Attachment/WOP_5/2065309788040/2065309788040-4.jpg',
 		},
 		{
-			name : 'producto6',
-			description : 'esto es una descipcion del producto 6',
-			url : 'https://guiadelempresario.com/wp-content/uploads/2020/09/Producto-scaled.jpg',
+			name : 'ZTE Blade V50',
+			price : '500',
+			url : 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS_M43dJoQiswXy3FjsfX22c2DRgkAP5eJfMA&s',
 		},
 	];
 
@@ -65,7 +65,7 @@ const Catalogo = () => {
 						<Producto
 						key={index} 
 						name={producto.name} 
-						description={producto.description} 
+						price={producto.price} 
 						url={producto.url} 
 						addToCart={()=> addToCart(producto)}
 						/>
