@@ -10,9 +10,51 @@
     font-weight: 700;
 }
 
+.card {
+    height:450px ;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border: 2px solid transparent;
+    transition: border-color 0.3s ease;
+}
+.card:hover {
+    border-color: black;
+}
+.card-img-top {
+    height: 270px;
+    margin-bottom: 15px;
+    background-size: cover;
+}
+.card img{
+    width: 100%;
+}
+
+
+.card button{
+    background-color: #817d7d;
+    color: #fff;
+    font-size: 0.8rem;
+    text-transform: uppercase;
+    padding: 0.8rem 1.5rem;
+    width: 80%;
+    text-align: center;
+    cursor: pointer;
+    margin: 0 auto 20px auto;
+    border-radius: 25px;
+    border-color: transparent;
+}
+
+.card button:hover{
+    background-color: #cecbcb;
+    border: none;
+}
+
+/* CARRITO */
 .carrito h3{
     font-size: 1.8rem;
     text-align: center;
+    color: black;
 }
 
 .carrito ul{
@@ -23,17 +65,3 @@
 .carrito ul li{
     padding: 10px;
 }
-
-
-/* 
-    <ul id="cont-cart">
-        {cart.map((item,index) =>(
-            <li key={index}>
-                {item.name} - Precio: {item.price}- Cantidad: {item.quantity}
-            </li>
-        )
-        )}
-    </ul>
-    <p>TOTAL: <span id="total-cart">S/ {total}</span></p>
-    <button class="btn btn-primary">PAGAR</button>
-</div> */
