@@ -1,0 +1,39 @@
+.productos {
+    margin: 5rem;
+}
+.productos h2 {
+    display: flex;
+    justify-content: center;
+    margin:5rem ;
+    text-transform: uppercase;
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+.carrito h3{
+    font-size: 1.8rem;
+    text-align: center;
+}
+
+.carrito ul{
+    list-style: none;
+}
+
+
+.carrito ul li{
+    padding: 10px;
+}
+
+
+/* 
+    <ul id="cont-cart">
+        {cart.map((item,index) =>(
+            <li key={index}>
+                {item.name} - Precio: {item.price}- Cantidad: {item.quantity}
+            </li>
+        )
+        )}
+    </ul>
+    <p>TOTAL: <span id="total-cart">S/ {total}</span></p>
+    <button class="btn btn-primary">PAGAR</button>
+</div> */

@@ -1,0 +1,45 @@
+
+.banner {
+  width: 100%;
+  height: 100vh;
+  background: url('../assets/fondo_home.jpg') no-repeat;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  background-size: cover;
+  background-position: center center;
+  padding-left: 10%;
+  color: #fff;
+}
+.titulo{
+    text-align: left;
+    max-width: 600px;
+}
+
+.titulo h1 {
+    margin-bottom: 1rem ;
+    text-transform: uppercase;
+    font-size: 3rem;
+    font-weight: 700;
+}
+.titulo p {
+    margin-bottom: 1rem;
+    color: #e6e6e6;
+}
+
+.titulo a{
+    display: inline-block;
+    padding: 0.8rem 1.5rem;
+    background-color: #817d7d;
+    color: #fff;
+    text-decoration: none;
+    font-weight: 600;
+    border-radius: 20px;
+    margin-bottom: 1rem;
+    text-transform: uppercase;
+    font-size: 1rem;
+}
+.titulo a:hover{
+    background-color: #cecbcb;
+}
+  
